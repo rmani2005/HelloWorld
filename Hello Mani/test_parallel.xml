@@ -2,8 +2,8 @@
 <suite name="Parallel Class Suite" parallel="classes" thread-count="2">
   <test name="Parallel Class Test" >
     <classes>
-      <class name="Testing_Pack.Test_One"/>
-      <class name="Testing_Pack.Test_Two"/>
+      <class name="Testing_Parallel.Test_One"/>
+      <class name="Testing_Parallel.Test_Two"/>
     </classes>
   </test>
 </suite>

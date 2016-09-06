@@ -1,4 +1,4 @@
-package Testing_Pack;
+package Testing_Parallel;
 
 import java.util.concurrent.TimeUnit;
 
