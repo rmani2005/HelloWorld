@@ -1,8 +1,9 @@
 package helloWorld;
  
-//set CLASSPATH=%CLASSPATH%;activation.jar;mail.jar
-import javax.mail.*;
-import java.util.*;
+import java.util.Properties;
+
+import org.eclipse.jetty.server.session.JDBCSessionManager.Session;
+import org.seleniumhq.jetty9.http.HttpTester.Message;
  
 public class Mail
 {

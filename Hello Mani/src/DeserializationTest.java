@@ -1,6 +1,6 @@
-import java.io
 import java.io.FileInputStream;
-import java.io.ObjectOutputStream; * ;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 class DeserializationTest
 {
  public static void main(String[] args)
@@ -9,8 +9,8 @@ class DeserializationTest
   try  
   {
    FileInputStream fis = new FileInputStream("student.ser");
-   ObjectOutputStream ois = new ObjectOutputStream(fis);
-   si = (Studentinfo)((Object) ois).readObject();
+   ObjectInputStream ois = new ObjectInputStream(fis);
+   si = (Studentinfo)((ObjectInputStream) ois).readObject();
   } 
   catch (Exception e)
    { e.printStackTrace(); }
